@@ -8,8 +8,6 @@ Script Purpose:
 	  Run this script to re-define the DDL structure of 'bronze' Tables
 ===============================================================================
 */
-USE DataWareHouse;
-
 -----Creating tables from the source (Bronze layer) (DDL Commands)------------------------------------
 -----(1) Table crm_cust_info
 IF OBJECT_ID ('bronze.crm_cust_info','U') IS NOT NULL
